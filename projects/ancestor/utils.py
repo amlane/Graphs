@@ -1,10 +1,3 @@
-
-# Note: This Queue class is sub-optimal. Why?
-# Because you should use a linked list with a queue to avoid reindexing the array
-
-# First in, First out
-
-
 class Queue():
     def __init__(self):
         self.queue = []
